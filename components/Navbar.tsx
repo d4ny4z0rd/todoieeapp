@@ -19,10 +19,10 @@ export default function Navbar() {
 		<>
 			<div className="p-4 shadown">
 				<div className="max-w-7xl m-auto flex flex-wrap gap-3 items-center justify-between">
-					<div className="flex justify-start">
+					<Link href={"/"} className="flex items-center gap-1">
 						<ListChecks size={30} />
 						<span className="font-semibold text-3xl">Todoiee</span>
-					</div>
+					</Link>
 					<div className="flex items-center gap-6">
 						<Button
 							className="lg:text-lg"
